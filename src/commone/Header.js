@@ -75,39 +75,23 @@ const Header = () => {
                       </Link>
                       <ul className="dropdown-menu" role="menu">
                         <li className="menu-item nav-item">
-                          <Link
-                    
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             About 1
                           </Link>
                         </li>
 
                         <li className="menu-item nav-item">
-                          <Link
-                           
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             About 2
                           </Link>
                         </li>
                         <li className="menu-item nav-item">
-                          <Link
-                           
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             About 3
                           </Link>
                         </li>
                         <li className="menu-item nav-item">
-                          <Link
-                            
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             About 4
                           </Link>
                         </li>
@@ -119,38 +103,22 @@ const Header = () => {
                       </Link>
                       <ul className="dropdown-menu" role="menu">
                         <li className="menu-item nav-item">
-                          <Link
-                            
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             Shop 1
                           </Link>
                         </li>
                         <li className="menu-item nav-item">
-                          <Link
-                            
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             Shop 2
                           </Link>
                         </li>
                         <li className="menu-item nav-item">
-                          <Link
-                          
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             Shop 4
                           </Link>
                         </li>
                         <li className="menu-item nav-item">
-                          <Link
-                            
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             Shop 3
                           </Link>
                         </li>
@@ -163,57 +131,34 @@ const Header = () => {
                       </Link>
                       <ul className="dropdown-menu" role="menu">
                         <li className="menu-item nav-item">
-                          <Link
-                            
-                            to="/"
-                            className="dropdown-item"
-                          >
-                           Prices
+                          <Link to="/" className="dropdown-item">
+                            Prices
                           </Link>
                         </li>
                         <li className="menu-item nav-item">
-                          <Link
-                            
-                            to="/"
-                            className="dropdown-item"
-                          >
-                           Gallery
+                          <Link to="/" className="dropdown-item">
+                            Gallery
                           </Link>
                         </li>
 
                         <li className="menu-item nav-item">
-                          <Link
-                           
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             FAQ’s
                           </Link>
                         </li>
                         <li className="menu-item nav-item">
-                          <Link
-                            to="/404"
-                            className="dropdown-item"
-                          >
+                          <Link to="/404" className="dropdown-item">
                             404
                           </Link>
                         </li>
 
                         <li className="menu-item nav-item">
-                          <Link
-                            
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             Coming Soon
                           </Link>
                         </li>
                         <li className="menu-item nav-item">
-                          <Link
-                            
-                            to="/"
-                            className="nav-link"
-                          >
+                          <Link to="/" className="nav-link">
                             Contact Us
                           </Link>
                         </li>
@@ -225,32 +170,22 @@ const Header = () => {
                       </Link>
                       <ul className="dropdown-menu" role="menu">
                         <li className="menu-item nav-item">
-                          <Link
-                            
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             Our news
                           </Link>
                         </li>
 
                         <li className="menu-item nav-item">
-                          <Link
-                            
-                            to="/"
-                            className="dropdown-item"
-                          >
+                          <Link to="/" className="dropdown-item">
                             World News
                           </Link>
                         </li>
-                    
                       </ul>
                     </li>
                     <li className="menu-item dropdown nav-item">
                       <Link to="/" className="nav-link">
                         Contact Us
                       </Link>
-                    
                     </li>
                   </ul>
                 </div>
