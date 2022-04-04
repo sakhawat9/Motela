@@ -13,32 +13,31 @@ const Welcome = () => {
             />
             <div className="welcome__image__experience">
               <div className="welcome__image__experience__area">
-                <div style={{backgroundColor: "#c19b7763"}}>
-                  <h3 className="welcome__image__experience__area__year">
-                    24
-                  </h3>
-                  <p>Years of Experience</p>
+                <div className="py-8 px-14 bg-primary-500 bg-opacity-60">
+                  <h3 className="welcome__image__experience__area__year">24</h3>
+                  <span>Years of</span>
+                  <span>Experience</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="welcome__content">
-            <p>INN & SUITES</p>
-            <h3>Welcome to Spa & Relax Hotel</h3>
-            <p>
+            <h5 className="welcome__content__subtitle">INN & SUITES</h5>
+            <h1 className="welcome__content__title">Welcome to Spa & Relax Hotel</h1>
+            <p className="welcome__content__description">
               Quisque vitae posuere libero. Phasellus feugiat erat sit amet dui
               condimentum imperdiet. Ut at libero nec ligula fringilla dictum
               sit amet id dui. Integer gravida dolor elit, sit amet vestibulum
               mi elementum eget. Nullam in nibh vitae magna tempus tincidunt ac
               sed ligula. Sed ornare eu dui a lobortis in hac habitasse.
             </p>
-            <span></span>
-            <div className="flex">
-              <div className="">
+            <div className="welcome__content__horizontal-line"></div>
+            <div className="welcome__content__email">
+              <div className="col-span-6">
                 <h6>MAIN MAIL</h6>
-                <p>info@hotel.com</p>
+                <p>admin@gmail.com</p>
               </div>
-              <div className="">
+              <div className="welcome__content__social-icons">
                 <h6>STAY TUNED</h6>
                 <ul>
                   <li>
