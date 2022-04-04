@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import AppRouter from './AppRouter';
 import "./assets/styles/main.scss"
 
 function App() {
   return (
-    <div className="hero">
-      <h3>Hello world</h3>
-    </div>
+    <>
+      <AppRouter />
+    </>
   );
 }
 
