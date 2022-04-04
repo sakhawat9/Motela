@@ -1,3 +1,101 @@
 .header {
-    @apply bg-red-500 text-white p-10;
+    @apply text-white text-sm;
+
+    &__top {
+        @apply bg-black p-5 opacity-75 flex justify-between;
+
+        &__left {
+            @apply flex justify-between;
+
+            &__email {
+                @apply pr-10
+            }
+
+            &__time {}
+        }
+    }
+
+    &__bottom {
+        @apply flex justify-between p-5 items-center bg-slate-600;
+
+        &__logo {
+            @apply w-40
+        }
+
+        // &__navigation {
+        //     &__wrapper {
+        //         @apply flex items-center justify-center;
+        //     }
+        // }
+
+        &__btn {}
+    }
+}
+
+.navbar-brand {
+    @apply p-0 text-blue-500 capitalize;
+}
+
+.main-navbar {
+    box-shadow: 0px 12px 10px -8px #c5c5c58a;
+}
+
+.navbar-nav .nav-item {
+    @apply relative ml-4 mr-4;
+
+    a {
+        @apply text-gray-900 text-base font-semibold pl-0 pr-0 relative;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        transition: var(--transition);
+
+    }
+}
+
+
+.navbar-nav .nav-item:last-child {
+    @apply mr-0;
+}
+
+.navbar-nav .nav-item:first-child {
+    @apply ml-0;
+}
+
+//   .navbar-nav .nav-item:hover a,
+//   .navbar-nav .nav-item.active a {
+//     @apply text-red-500;
+//   }
+
+.navbar-nav .nav-item .dropdown-menu {
+    @apply border-0 left-0 opacity-0 block absolute px-0 py-3 invisible bg-white mt-3;
+    top: 60px;
+    z-index: 99;
+    width: 210px;
+    transition: 0.1s;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+
+    li {
+        @apply m-0;
+
+        a {
+            @apply py-2 px-5 relative block text-gray-900 font-medium;
+
+            i {
+                @apply m-0 absolute top-1/2 text-lg right-4;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
+
+//   .navbar-nav .nav-item .dropdown-menu li a:hover,
+//   .navbar-nav .nav-item .dropdown-menu li a:focus,
+//   .navbar-nav .nav-item .dropdown-menu li a.active {
+//     @apply text-red-500 bg-transparent;
+//   }
+
+
+.navbar-nav .nav-item:hover .dropdown-menu {
+    @apply visible opacity-100;
+    margin-top: -20px;
 }
