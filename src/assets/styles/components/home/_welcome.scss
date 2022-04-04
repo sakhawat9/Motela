@@ -1,0 +1,23 @@
+.welcome {
+  background-image: url("http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/bg1.jpg");
+  @apply bg-no-repeat bg-cover bg-center py-16;
+  &__wrapper {
+    @apply flex items-center gap-4;
+  }
+  &__image {
+    @apply pl-16 pb-5 relative;
+
+    &__experience {
+      @apply absolute bottom-0 p-3 bg-white left-0;
+      &__area {
+        background-image: url("http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/bg10.jpg");
+        background-position: top center;
+        @apply bg-no-repeat bg-cover;
+        &__year {
+            font-size: 80px;
+            @apply font-semibold;
+        }
+      }
+    }
+  }
+}
