@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header">
       <div className="header__top">
         <div className="header__top__left">
-          <p className="header__top__left__email">motala@gmail.com</p>
+          <p className="header__top__left__email">motalala@gmail.com</p>
           <p className="header__top__left__time">MON - SAT: 08.00 - 22:00</p>
         </div>
         <div className="header__top__right">
