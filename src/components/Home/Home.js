@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../../commone/Layout";
+import AllRooms from "./AllRooms";
 import Hero from "./Hero";
 import Welcome from "./Welcome";
 
@@ -8,6 +9,7 @@ const Home = () => {
     <Layout>
       <Hero />
       <Welcome />
+      <AllRooms />
     </Layout>
   );
 };
