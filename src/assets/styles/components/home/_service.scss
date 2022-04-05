@@ -1,0 +1,42 @@
+.service {
+  background: linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)),
+    url(http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/parallax-7.jpg);
+  background-position: bottom center;
+  padding: 120px 0px 250px 0px;
+  @apply bg-cover bg-no-repeat;
+  &__wrapper {
+    @apply grid grid-cols-12 gap-6 text-center text-white;
+    &__first-item {
+      @apply md:col-span-3;
+    }
+    &__content {
+      @apply col-span-12 md:col-span-6;
+      &__subtitle {
+        @apply text-xs mb-5;
+        letter-spacing: 4px;
+      }
+      &__title {
+        @apply mb-5;
+        font-size: 50px;
+        line-height: 1.3em;
+      }
+      &__description {
+        @apply mb-5 text-sm;
+        line-height: 2em;
+        letter-spacing: 1.5px;
+      }
+      &__btn {
+        @apply flex justify-center gap-6 items-center;
+        a {
+          @apply text-xs font-bold hover:px-7;
+          line-height: 1em;
+          letter-spacing: 4px;
+          padding: 15px 35px 12px 35px;
+        }
+      }
+    }
+    &__last-item {
+      @apply md:col-span-3;
+    }
+  }
+}
