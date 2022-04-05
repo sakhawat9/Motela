@@ -1,5 +1,5 @@
 .header {
-    @apply text-white text-sm;
+    @apply text-white text-sm absolute left-0 top-0 right-0 z-10;
 
     &__top {
         @apply bg-black p-5 opacity-75 flex justify-between;
@@ -16,7 +16,7 @@
     }
 
     &__bottom {
-        @apply flex justify-between p-5 items-center bg-slate-600;
+        @apply flex justify-between p-5 items-center;
 
         &__logo {
             @apply w-40
@@ -44,7 +44,7 @@
     @apply relative ml-4 mr-4;
 
     a {
-        @apply text-gray-900 text-base font-semibold pl-0 pr-0 relative;
+        @apply text-base font-semibold pl-0 pr-0 relative;
         padding-top: 18px;
         padding-bottom: 18px;
         transition: var(--transition);
@@ -61,10 +61,10 @@
     @apply ml-0;
 }
 
-//   .navbar-nav .nav-item:hover a,
-//   .navbar-nav .nav-item.active a {
-//     @apply text-red-500;
-//   }
+  .navbar-nav .nav-item:hover a,
+  .navbar-nav .nav-item.active a {
+    @apply text-primary;
+  }
 
 .navbar-nav .nav-item .dropdown-menu {
     @apply border-0 left-0 opacity-0 block absolute px-0 py-3 invisible bg-white mt-3;
@@ -88,11 +88,11 @@
     }
 }
 
-//   .navbar-nav .nav-item .dropdown-menu li a:hover,
-//   .navbar-nav .nav-item .dropdown-menu li a:focus,
-//   .navbar-nav .nav-item .dropdown-menu li a.active {
-//     @apply text-red-500 bg-transparent;
-//   }
+  .navbar-nav .nav-item .dropdown-menu li a:hover,
+  .navbar-nav .nav-item .dropdown-menu li a:focus,
+  .navbar-nav .nav-item .dropdown-menu li a.active {
+    @apply text-primary bg-transparent;
+  }
 
 
 .navbar-nav .nav-item:hover .dropdown-menu {

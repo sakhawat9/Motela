@@ -1,3 +1,4 @@
 .hero {
-    @apply text-white p-20 bg-red-600;
+    background:linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.123)), url("http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/parallax-26.jpg");
+    @apply h-screen bg-cover bg-no-repeat bg-center;
 }
