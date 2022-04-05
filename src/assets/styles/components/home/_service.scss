@@ -1,5 +1,5 @@
 .service {
-  background: linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/parallax-7.jpg);
   background-position: bottom center;
   padding: 120px 0px 250px 0px;
@@ -37,6 +37,39 @@
     }
     &__last-item {
       @apply md:col-span-3;
+    }
+  }
+}
+
+.serves-card {
+  background-image: url(http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/bg7.jpg);
+  background-position: bottom right;
+  @apply bg-no-repeat bg-cover;
+  &__wrapper {
+    @apply grid grid-cols-12 gap-6;
+    &__area {
+      @apply col-span-12 md:col-span-4 shadow-lg bg-white rounded;
+    }
+  }
+  &__content {
+    @apply ml-16;
+    &__subtitle {
+      @apply text-xs pt-10;
+      letter-spacing: 4px;
+    }
+    &__title {
+      font-size: 50px;
+      line-height: 1.3em;
+    }
+    ul {
+      li {
+        @apply flex gap-4 mb-3;
+      }
+    }
+    &__btn {
+      @apply text-xs font-bold bg-primary inline-block mt-5 ml-16 mb-16;
+      padding: 15px 35px 12px 35px;
+      letter-spacing: 4px;
     }
   }
 }
