@@ -8,6 +8,8 @@ const data = [
       "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/image-4.jpg",
     subtitle: "ROOM CLEANING",
     price: "150",
+    buttonText: "MORE INFO",
+    className: "bg-white",
     list: [
       "Suspendisse nec tincidunt",
       "Vestibulum sit amet nibh",
@@ -19,6 +21,8 @@ const data = [
       "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/image-3.jpg",
     subtitle: "FUL LAUNDRY",
     price: "180",
+    buttonText: "REQUEST",
+    className: "bg-gray-700 text-white",
     list: [
       "Suspendisse nec tincidunt",
       "Vestibulum sit amet nibh",
@@ -30,6 +34,8 @@ const data = [
       "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/image-2.jpg",
     subtitle: "MEALS INCLUDED",
     price: "165 ",
+    buttonText: "SEE MENU",
+    className: "bg-white",
     list: [
       "Suspendisse nec tincidunt",
       "Vestibulum sit amet nibh",
@@ -90,7 +96,9 @@ const Services = () => {
             <div className="container">
               <div className="serves-card__wrapper">
                 {data.map((data) => (
-                  <div className="serves-card__wrapper__area">
+                  <div
+                    className={`serves-card__wrapper__area ${data.className}`}
+                  >
                     <div className="">
                       <img
                         width="741"
@@ -122,7 +130,7 @@ const Services = () => {
                       </ul>
                     </div>
                     <div className="serves-card__content__btn">
-                      <a href="#">MORE INFO</a>
+                      <a href="#">{data.buttonText}</a>
                     </div>
                   </div>
                 ))}
@@ -131,75 +139,71 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="grid grid-cols-12 gap-4">
-          <div className="col-span-12 md:col-span-4">
-            <div className="">
-              <h5 className="">01</h5>{" "}
-            </div>
-
-            <div className="">
-              <p className="">SPA &amp; MASSAGES</p>
-            </div>
-            <div className="">
-              <p className="">
+      <div className="food-serves">
+        <div className="container">
+          <div className="food-serves__wrapper">
+            <div className="food-serves__wrapper__area">
+              <h5 className="food-serves__wrapper__area__subtitle">01</h5>
+              <p className="food-serves__wrapper__area__title">
+                SPA &amp; MASSAGES
+              </p>
+              <p className="food-serves__wrapper__area__details">
                 Etiam diam arcu, semper at interdum id, ultricies quis ipsum.
                 Duis laoreet ante feugiat,
-              </p>{" "}
-            </div>
-
-            <div className="">
-              <h5 className="">02</h5>{" "}
-            </div>
-
-            <div className="">
-              <p className="">ROOM SERVICE</p>
-            </div>
-
-            <div className="">
-              <p className="">
+              </p>
+              <h5 className="food-serves__wrapper__area__subtitle">02</h5>
+              <p className="food-serves__wrapper__area__title">ROOM SERVICE</p>
+              <p className="food-serves__wrapper__area__details">
                 Etiam diam arcu, semper at interdum id, ultricies quis ipsum.
                 Duis laoreet ante feugiat,
-              </p>{" "}
+              </p>
             </div>
-          </div>
-
-          <div className="col-span-12 md:col-span-4">
-            <div className="">
-              <h5 className="">03</h5>{" "}
-            </div>
-
-            <div className="">
-              <p className="">IRONING &amp; LAUNDRY</p>{" "}
-            </div>
-            <div className="">
-              <p className="">
+            <div className="food-serves__wrapper__area">
+              <h5 className="food-serves__wrapper__area__subtitle">03</h5>
+              <p className="food-serves__wrapper__area__title">
+                IRONING &amp; LAUNDRY
+              </p>
+              <p className="food-serves__wrapper__area__details">
+                Etiam diam arcu, semper at interdum id, ultricies quis ipsum.
+                Duis laoreet ante feugiat,
+              </p>
+              <h5 className="food-serves__wrapper__area__subtitle">04</h5>
+              <p className="food-serves__wrapper__area__title">CLEANING ROOM</p>
+              <p className="food-serves__wrapper__area__details">
                 Etiam diam arcu, semper at interdum id, ultricies quis ipsum.
                 Duis laoreet ante feugiat,
               </p>
             </div>
 
-            <div className="">
-              <h5 className="">04</h5>{" "}
-            </div>
-            <div className="">
-              <p className="">CLEANING ROOM</p>
-            </div>
-
-            <div className="">
-              <p className="">
-                Etiam diam arcu, semper at interdum id, ultricies quis ipsum.
-                Duis laoreet ante feugiat,{" "}
-              </p>
-            </div>
-          </div>
-          <div className="col-span-12 md:col-span-4">
-            <div className="">
-              <h5 className="">MEALS INCLUDED</h5>
-            </div>
-            <div className="">
-              <div className="">24</div>
-              <div className="">SEATS</div>
+            <div className="col-span-12 md:col-span-4">
+              <div className="pr-16 pb-5 relative col-span-12 md:col-span-6">
+                <img
+                style={{height: "300px", width: "100%"}}
+                  src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/03/post-04.jpg"
+                  alt="welcome images"
+                />
+                <div className="absolute bottom-0 p-3 bg-white right-0">
+                  <div
+                    className="bg-no-repeat bg-cover"
+                    style={{
+                      backgroundImage:
+                        'url("http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/bg10.jpg")',
+                      backgroundPosition: "top center",
+                    }}
+                  >
+                    <div className="py-8 px-14 bg-primary-500 bg-opacity-60">
+                      <h3
+                        className="font-semibold"
+                        style={{ fontSize: "80px" }}
+                      >
+                        24
+                      </h3>
+                      <span className="block text-center">Years of</span>
+                      <span className="block text-center">Experience</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

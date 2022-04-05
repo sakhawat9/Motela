@@ -48,7 +48,7 @@
   &__wrapper {
     @apply grid grid-cols-12 gap-6;
     &__area {
-      @apply col-span-12 md:col-span-4 shadow-lg bg-white rounded;
+      @apply col-span-12 md:col-span-4 shadow-lg rounded;
     }
   }
   &__content {
@@ -67,9 +67,35 @@
       }
     }
     &__btn {
-      @apply text-xs font-bold bg-primary inline-block mt-5 ml-16 mb-16;
+      @apply text-xs font-bold bg-primary inline-block mt-5 ml-16 mb-16 hover:bg-gray-900 text-white;
       padding: 15px 35px 12px 35px;
       letter-spacing: 4px;
     }
+  }
+}
+
+.food-serves {
+  background-image: url(http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/bg6.jpg);
+
+  background-position: top center;
+  @apply bg-no-repeat  bg-cover py-16;
+  &__wrapper {
+      @apply  grid grid-cols-12 gap-4;
+      &__area {
+          @apply col-span-12 md:col-span-4;
+          &__subtitle {
+              @apply text-xs text-primary w-1/2 border-b border-primary;
+          }
+          &__title {
+              @apply text-xs;
+              letter-spacing: 4px;
+              line-height: 1.7em;
+          }
+          &__details {
+              @apply text-sm font-light mb-10;
+              line-height: 28px;
+              letter-spacing: 1.5px;
+          }
+      }
   }
 }
