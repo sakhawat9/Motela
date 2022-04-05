@@ -1,17 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/Images/logo-motela.png";
+import { HiOutlineMail, HiOutlineClock } from 'react-icons/hi';
+import { FaShoppingCart } from 'react-icons/fa';
 
 const Header = () => {
   return (
     <div className="header">
       <div className="header__top">
         <div className="header__top__left">
-          <p className="header__top__left__email">motalala@gmail.com</p>
-          <p className="header__top__left__time">MON - SAT: 08.00 - 22:00</p>
+          <p className="header__top__left__email"> <HiOutlineMail className="font-bold" /> <span>motala@gmail.com</span></p>
+          <p className="header__top__left__time"> <HiOutlineClock /><span> MON - SAT: 08.00 - 22:00</span></p>
         </div>
         <div className="header__top__right">
-          <p>Cart : 0 Items - $0.00</p>
+          <FaShoppingCart/> <span> Cart : 0 Items - $0.00</span>
         </div>
       </div>
       <div className="header__bottom">
