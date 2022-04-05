@@ -1,0 +1,61 @@
+.all-rooms {
+  background-image: url(http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/bg2.jpg);
+  background-position: top center;
+  @apply bg-no-repeat bg-cover py-16;
+  &__top {
+    @apply grid grid-cols-12 gap-6 items-center;
+    &__first-item {
+      @apply col-span-12 md:col-span-3;
+      &__subtitle {
+        @apply text-xs text-primary tracking-wide;
+      }
+      &__title {
+        @apply font-medium;
+        font-size: 50px;
+        line-height: 1.3em;
+      }
+    }
+    &__second-item {
+      @apply col-span-12 md:col-span-6 text-center;
+      p {
+        @apply font-light text-sm;
+        line-height: 2em;
+        letter-spacing: 1.5px;
+      }
+    }
+    &__third-item {
+      @apply col-span-12 md:col-span-3 md:text-right text-center;
+      a {
+        @apply text-xs font-bold leading-4 tracking-wide text-white bg-gray-800 py-4 px-10;
+        &:hover {
+          @apply px-7;
+        }
+      }
+    }
+  }
+  &__bottom {
+    @apply my-12;
+    &__wrapper {
+      @apply grid grid-cols-12 gap-6;
+      &__item {
+        @apply col-span-12 md:col-span-4 relative;
+        &__image {
+          @apply opacity-100;
+        }
+        &__stating-price {
+          @apply absolute top-6 right-0;
+          a {
+            @apply bg-primary text-white cursor-pointer py-2 px-5 uppercase text-sm;
+            letter-spacing: 4px;
+          }
+        }
+        &__details {
+            @apply absolute bottom-6 left-4 text-white;
+            h3 {
+                @apply text-white;
+            }
+        }
+      }
+    }
+  }
+}
