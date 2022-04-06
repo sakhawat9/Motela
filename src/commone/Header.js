@@ -10,6 +10,11 @@ const Header = () => {
           <p className="header__top__left__email">motalala@gmail.com</p>
           <p className="header__top__left__time">MON - SAT: 08.00 - 22:00</p>
         </div>
+        <div>
+          <marquee width="90%" className="text-lg">
+            <span className="footer__submit px-8 py-4">News</span> New year Registrations open, contact us and renew your card! 
+          </marquee>
+        </div>
         <div className="header__top__right">
           <p>Cart : 0 Items - $0.00</p>
         </div>
