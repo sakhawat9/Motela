@@ -4,6 +4,7 @@ import AllRooms from "./AllRooms";
 import Hero from "./Hero";
 import HotelNews from "./HotelNews";
 import Subscribe from "./Subscribe";
+import Services from "./Services";
 import Welcome from "./Welcome";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <AllRooms />
       <HotelNews/>
       <Subscribe/>
+      <Services />
     </Layout>
   );
 };

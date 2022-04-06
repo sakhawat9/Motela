@@ -66,17 +66,11 @@ const AllRooms = () => {
                   className="all-rooms__bottom__wrapper__item__image"
                   src={data.image}
                 />
-                <div className="absolute top-6 right-0">
-                  <a
-                    href="#"
-                    className="bg-primary text-white cursor-pointer py-2 px-5 uppercase text-sm"
-                    style={{ letterSpacing: "4px" }}
-                  >
-                    FROM {data.stagingPrice} $
-                  </a>
+                <div className="all-rooms__bottom__wrapper__item__stating-price">
+                  <a href="#">FROM {data.stagingPrice} $</a>
                 </div>
-                <div className="absolute bottom-6 left-4 text-white">
-                  <h3 className="text-white">{data.roomTitle}</h3>
+                <div className="all-rooms__bottom__wrapper__item__details">
+                  <h3>{data.roomTitle}</h3>
 
                   <div className="flex gap-4">
                     <img
@@ -84,7 +78,7 @@ const AllRooms = () => {
                       width="23"
                       src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/plugins/nd-booking/addons/elementor/rooms/layout/../img/icon-guests.png"
                     />
-                    <p>1 Guests</p>
+                    <p>{data.guests} Guests</p>
                     <img
                       alt=""
                       width="20"

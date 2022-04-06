@@ -1,0 +1,101 @@
+.service {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/parallax-7.jpg);
+  background-position: bottom center;
+  padding: 120px 0px 250px 0px;
+  @apply bg-cover bg-no-repeat;
+  &__wrapper {
+    @apply grid grid-cols-12 gap-6 text-center text-white;
+    &__first-item {
+      @apply md:col-span-3;
+    }
+    &__content {
+      @apply col-span-12 md:col-span-6;
+      &__subtitle {
+        @apply text-xs mb-5;
+        letter-spacing: 4px;
+      }
+      &__title {
+        @apply mb-5;
+        font-size: 50px;
+        line-height: 1.3em;
+      }
+      &__description {
+        @apply mb-5 text-sm;
+        line-height: 2em;
+        letter-spacing: 1.5px;
+      }
+      &__btn {
+        @apply flex justify-center gap-6 items-center;
+        a {
+          @apply text-xs font-bold hover:px-7;
+          line-height: 1em;
+          letter-spacing: 4px;
+          padding: 15px 35px 12px 35px;
+        }
+      }
+    }
+    &__last-item {
+      @apply md:col-span-3;
+    }
+  }
+}
+
+.serves-card {
+  background-image: url(http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/bg7.jpg);
+  background-position: bottom right;
+  @apply bg-no-repeat bg-cover;
+  &__wrapper {
+    @apply grid grid-cols-12 gap-6;
+    &__area {
+      @apply col-span-12 md:col-span-4 shadow-lg rounded;
+    }
+  }
+  &__content {
+    @apply ml-16;
+    &__subtitle {
+      @apply text-xs pt-10;
+      letter-spacing: 4px;
+    }
+    &__title {
+      font-size: 50px;
+      line-height: 1.3em;
+    }
+    ul {
+      li {
+        @apply flex gap-4 mb-3;
+      }
+    }
+    &__btn {
+      @apply text-xs font-bold bg-primary inline-block mt-5 ml-16 mb-16 hover:bg-gray-900 text-white;
+      padding: 15px 35px 12px 35px;
+      letter-spacing: 4px;
+    }
+  }
+}
+
+.food-serves {
+  background-image: url(http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/bg6.jpg);
+
+  background-position: top center;
+  @apply bg-no-repeat  bg-cover py-16;
+  &__wrapper {
+      @apply  grid grid-cols-12 gap-4;
+      &__area {
+          @apply col-span-12 md:col-span-4;
+          &__subtitle {
+              @apply text-xs text-primary w-1/2 border-b border-primary;
+          }
+          &__title {
+              @apply text-xs;
+              letter-spacing: 4px;
+              line-height: 1.7em;
+          }
+          &__details {
+              @apply text-sm font-light mb-10;
+              line-height: 28px;
+              letter-spacing: 1.5px;
+          }
+      }
+  }
+}
