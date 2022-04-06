@@ -29,7 +29,7 @@ const Around = () => {
              <div className='text-center'>
                <div className='around__bottom__wrapper__item__image'>
                     <p className='text-red-400'>SURROUNDINGS</p>
-                    <h2 className='text-7xl font-normal my-8'>The Places Around</h2>
+                    <h2 className='around__title'>The Places Around</h2>
                </div>
             <div className='around__bottom__wrapper'>
                  {
@@ -38,7 +38,7 @@ const Around = () => {
                               <img className="around__animation" src={info?.image}alt="" />
                               <div className='mt-8'>
                                    <h3 className='text-4xl font-normal'>{info.title}</h3>
-                                   <p>{info.description}</p>
+                                   <p className='around__title__description'>{info.description}</p>
                               </div>
                           </div>
 
