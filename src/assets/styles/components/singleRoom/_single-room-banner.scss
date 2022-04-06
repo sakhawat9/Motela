@@ -1,0 +1,20 @@
+.single-room-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.185)), url(http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/parallax-13.jpg);
+    @apply bg-no-repeat bg-center bg-cover;
+    &__height {
+        height: 350px;
+    }
+    &__content {
+        @apply py-6 md:flex justify-between text-white uppercase;
+        &__price {
+            font-size: 50px;
+            line-height: 50px;
+        }
+        &__list {
+            @apply md:flex items-center gap-4 mb-10 md:mb-0 font-medium text-center;
+            li {
+                @apply py-2 md:py-0;
+            }
+        }
+    }
+}
