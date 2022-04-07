@@ -1,0 +1,25 @@
+.around{  
+    &__bottom {
+        @apply my-12;
+        &__wrapper {
+          @apply grid grid-cols-1 md:grid-cols-3  gap-4;
+          &__item {
+            &__image {
+                background-image: url(http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/bg2.jpg);
+                background-position: top left;
+                @apply bg-no-repeat bg-cover py-16;
+            }
+          }
+        }
+      }
+      &__animation:hover {
+        transform: translate(0px,-30px);
+        transition: 1.5s ;
+      }
+     &__title{
+        @apply text-4xl md:text-7xl font-normal my-8;
+        &__description {
+          @apply py-8 md:py-4
+        }
+     }
+}
