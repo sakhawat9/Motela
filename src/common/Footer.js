@@ -13,7 +13,7 @@ const Footer = () => {
 <div>
 <div className=' footer text-white py-14'>
 {/* here footer section */}
-<div class="grid md:grid-cols-4 grid-cols-1 gap-4 mx-4 ">
+<div className="grid md:grid-cols-4 grid-cols-1 gap-4 mx-4 ">
   <div className=' p-10 '>
       <h4 className=''>About Us</h4>
       <p>Sed sit amet nisl in velit viverra bibendum in ac nisi.
@@ -55,7 +55,7 @@ const Footer = () => {
   </div>
       <div className='p-10'>
       <h4>Gallery</h4>
-      <div class="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-4">
 <div>
 <img src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/shop-9.jpg" alt="" />
 </div> 

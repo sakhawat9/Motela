@@ -19,3 +19,10 @@
         }
     }
 }
+
+.privateSuiteContent {
+    &__carousel-image {
+        @apply w-full;
+        height: 500px;
+    }
+}
