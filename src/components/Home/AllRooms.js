@@ -6,7 +6,7 @@ const data = [
   {
     roomTitle: "Private Suite",
     image:
-      "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/room-4-1024x664.jpg",
+      "https://res.cloudinary.com/academist/image/upload/v1649321226/room-1-1024x664_m3nekf.jpg",
     stagingPrice: "34",
     guests: "1",
     size: "23",
@@ -15,7 +15,7 @@ const data = [
   {
     roomTitle: "Deluxe Room",
     image:
-      "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/room-6-1024x664.jpg",
+      "https://res.cloudinary.com/academist/image/upload/v1649321228/room-4-1024x664_wadjwu.jpg",
     stagingPrice: "68",
     guests: "5",
     size: "56",
@@ -24,7 +24,7 @@ const data = [
   {
     roomTitle: "Family Room",
     image:
-      "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/room-1-1024x664.jpg",
+      "https://res.cloudinary.com/academist/image/upload/v1649321228/room-6-1024x664_vg1edw.jpg",
     stagingPrice: "87",
     guests: "5",
     size: "67",
@@ -76,13 +76,13 @@ const AllRooms = () => {
                     <img
                       alt=""
                       width="23"
-                      src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/plugins/nd-booking/addons/elementor/rooms/layout/../img/icon-guests.png"
+                      src="https://res.cloudinary.com/academist/image/upload/v1649321346/icon-guests_lgxtvh.png"
                     />
                     <p>{data.guests} Guests</p>
                     <img
                       alt=""
                       width="20"
-                      src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/plugins/nd-booking/addons/elementor/rooms/layout/../img/icon-size.png"
+                      src="https://res.cloudinary.com/academist/image/upload/v1649321346/icon-size_uhhdwa.png"
                     />
                     <p>23 ft</p>
                   </div>
