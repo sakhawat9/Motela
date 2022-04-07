@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../../commone/Layout";
+import Layout from "../../common/Layout";
 import AllRooms from "./AllRooms";
 import Hero from "./Hero";
 import HotelNews from "./HotelNews";
@@ -13,9 +13,9 @@ const Home = () => {
       <Hero />
       <Welcome />
       <AllRooms />
-      <HotelNews/>
-      <Subscribe/>
       <Services />
+      <HotelNews />
+      <Subscribe />
     </Layout>
   );
 };

@@ -41,7 +41,7 @@ const Footer = () => {
   </div>
    <div className='footer__wrapper__area'>
       <h4>Gallery</h4>
-      <div class="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-4">
 <div>
 <img src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/shop-9.jpg" alt="" />
 </div> 
