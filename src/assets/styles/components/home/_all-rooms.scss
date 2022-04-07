@@ -42,6 +42,19 @@
         &__image {
           @apply opacity-100;
         }
+        &__stating-price {
+          @apply absolute top-6 right-0;
+          a {
+            @apply bg-primary text-white cursor-pointer py-2 px-5 uppercase text-sm;
+            letter-spacing: 4px;
+          }
+        }
+        &__details {
+            @apply absolute bottom-6 left-4 text-white;
+            h3 {
+                @apply text-white;
+            }
+        }
       }
     }
   }

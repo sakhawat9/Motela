@@ -1,0 +1,28 @@
+.private-suite {
+    @apply py-10;
+    &__title {
+        font-size: 40px;
+        @apply font-medium
+    }
+    &__ratting {
+        @apply  flex gap-3 pb-10;
+        p {
+            @apply text-sm font-light;
+        }
+        ul {
+            @apply flex gap-1;
+            li {
+                svg {
+                    @apply text-gray-500;
+                }
+            }
+        }
+    }
+}
+
+.privateSuiteContent {
+    &__carousel-image {
+        @apply w-full;
+        height: 500px;
+    }
+}
