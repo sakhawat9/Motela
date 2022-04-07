@@ -7,13 +7,13 @@ import "slick-carousel/slick/slick.css";
 
 const data = [
   {
-    img: "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/room-7.jpg",
+    img: "https://res.cloudinary.com/academist/image/upload/v1649326925/room-7_a3xg3x.jpg",
   },
   {
-    img: "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/room-4.jpg",
+    img: "https://res.cloudinary.com/academist/image/upload/v1649326971/room-4_lwlykj.jpg",
   },
   {
-    img: "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/room-5.jpg",
+    img: "https://res.cloudinary.com/academist/image/upload/v1649326971/room-5_q6gsr4.jpg",
   },
 ];
 
@@ -54,7 +54,7 @@ const PrivateSuiteContent = () => {
             alt=""
             className="mx-auto"
             width="40"
-            src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/plugins/nd-booking/templates/icon-user-grey.svg"
+            src="https://res.cloudinary.com/academist/image/upload/v1649329629/icon-user-grey_jjjecr.svg"
           />
           <p className="text-gray-500 text-sm font-light mt-3">1 GUESTS</p>
         </div>
@@ -63,7 +63,7 @@ const PrivateSuiteContent = () => {
             alt=""
             className="mx-auto"
             width="40"
-            src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/plugins/nd-booking/templates/icon-plan-grey.svg"
+            src="https://res.cloudinary.com/academist/image/upload/v1649329628/icon-plan-grey_cedsbg.svg"
           />
           <p className="text-gray-500 text-sm font-light mt-3">23 ft</p>
         </div>
@@ -72,7 +72,7 @@ const PrivateSuiteContent = () => {
             alt=""
             className="mx-auto"
             width="40"
-            src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/plugins/nd-booking/templates/icon-bed-grey.svg"
+            src="https://res.cloudinary.com/academist/image/upload/v1649329628/icon-bed-grey_dlvmjt.svg"
           />
           <p className="text-gray-500 text-sm font-light mt-3">
             34 $ / PER NIGHT
@@ -91,7 +91,7 @@ const PrivateSuiteContent = () => {
               alt=""
               className="nd_booking_margin_left_5"
               width="12"
-              src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/plugins/nd-booking/templates/icon-info-grey.svg"
+              src="https://res.cloudinary.com/academist/image/upload/v1649329628/icon-calendar-grey_pl6pvj.svg"
             />
           </div>
         </div>
@@ -120,7 +120,7 @@ const PrivateSuiteContent = () => {
                 alt=""
                 className=""
                 width="25"
-                src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/service-4.png"
+                src="https://res.cloudinary.com/academist/image/upload/v1649329535/service-4_ll1op1.png"
               />
               <p className="">Hairdryer</p>
             </div>
@@ -132,7 +132,7 @@ const PrivateSuiteContent = () => {
                 alt=""
                 className=""
                 width="25"
-                src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/service-18.png"
+                src="https://res.cloudinary.com/academist/image/upload/v1649329328/service-18_iab2ws.png"
               />
               <p className="">Pool</p>
             </div>
@@ -143,7 +143,7 @@ const PrivateSuiteContent = () => {
                 alt=""
                 className=""
                 width="25"
-                src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/service-3.png"
+                src="https://res.cloudinary.com/academist/image/upload/v1649329327/service-3_i0h33o.png"
               />
               <p className="">Elevator</p>
             </div>
@@ -154,7 +154,7 @@ const PrivateSuiteContent = () => {
                 alt=""
                 className=""
                 width="25"
-                src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/service-6.png"
+                src="https://res.cloudinary.com/academist/image/upload/v1649329328/service-6_jbf3ho.png"
               />
               <p className="">Bunk Bed</p>
             </div>
@@ -165,7 +165,7 @@ const PrivateSuiteContent = () => {
                 alt=""
                 className=""
                 width="25"
-                src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/service-11.png"
+                src="https://res.cloudinary.com/academist/image/upload/v1649329328/service-11_aabmev.png"
               />
               <p className="">Drinks</p>
             </div>
@@ -177,7 +177,7 @@ const PrivateSuiteContent = () => {
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-4 gap-4 relative">
             <img
-              src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/post-9.jpg"
+              src="https://res.cloudinary.com/academist/image/upload/v1649329328/post-9_srauat.jpg"
               alt=""
             />
             <a className="absolute bottom-6 text-white px-8 mx-auto" href="#">
@@ -186,7 +186,7 @@ const PrivateSuiteContent = () => {
           </div>
           <div className="col-span-12 md:col-span-4 gap-4 relative">
             <img
-              src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/post-8.jpg"
+              src="https://res.cloudinary.com/academist/image/upload/v1649329328/post-8_uznvzv.jpg"
               alt=""
             />
             <a className="absolute bottom-6 text-white px-8 mx-auto" href="#">
@@ -195,7 +195,7 @@ const PrivateSuiteContent = () => {
           </div>
           <div className="col-span-12 md:col-span-4 gap-4 relative">
             <img
-              src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/post-7.jpg"
+              src="https://res.cloudinary.com/academist/image/upload/v1649329328/post-7_gg0tg9.jpg"
               alt=""
             />
             <a className="absolute bottom-6 text-white px-8 mx-auto" href="#">

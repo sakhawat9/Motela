@@ -9,7 +9,7 @@ const Welcome = () => {
           <div className="welcome__wrapper">
             <div className="welcome__image">
               <img
-                src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/image-1-1024x976.jpg"
+                src="https://res.cloudinary.com/academist/image/upload/v1649323004/image-1-1024x976_hame7v.jpg"
                 alt="welcome images"
               />
               <div className="welcome__image__experience">
@@ -67,7 +67,7 @@ const Welcome = () => {
           <h5 className="welcome__contact__reserve">Reserve a Room Now</h5>
           <img
             className="welcome__contact__image"
-            src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/icon-7.png"
+            src="https://res.cloudinary.com/academist/image/upload/v1649323004/icon-7_tqhpff.png"
             alt=""
           />
           <h5 className="welcome__contact__number">
