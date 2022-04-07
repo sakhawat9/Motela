@@ -1,72 +1,71 @@
-.hotel-news{
+.hotel-news {
   @apply bg-cover bg-center bg-no-repeat  py-20;
-  background-image: url('http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/parallax-3.jpg');
+  background-image: url("https://res.cloudinary.com/academist/image/upload/v1649326682/parallax-3_rfkkra.jpg");
 
- &__info{
- @apply text-center  text-white;
- };
+  &__info {
+    @apply text-center  text-white;
+  }
 
- &__wrapper{
-   @apply md:grid md:grid-cols-3 gap-8  py-20;
+  &__wrapper {
+    @apply md:grid md:grid-cols-3 gap-8  py-20;
 
-   &__linkup{
-     @apply  flex justify-center items-center bg-cover bg-center bg-no-repeat h-48 mb-5;
-    background-image: url('http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/03/post-1.jpg');
-   p{
-     @apply text-white text-2xl
-   }
-  };
+    &__linkup {
+      @apply flex justify-center items-center bg-cover bg-center bg-no-repeat h-48 mb-5;
+      background-image: url("https://res.cloudinary.com/academist/image/upload/v1649326681/post-1_mzkjau.jpg");
+      p {
+        @apply text-white text-2xl;
+      }
+    }
 
-  &__card{
-    @apply relative mt-4 md:mt-0;
-    img{
-      @apply h-72 w-full object-cover ;
-    };
-   
-    &__card-body{
-      @apply bg-white p-10 ;
+    &__card {
+      @apply relative mt-4 md:mt-0;
+      img {
+        @apply h-72 w-full object-cover;
+      }
 
-      &__comments{
-        @apply flex justify-between mt-4;
-        p{
-          @apply flex items-center;
+      &__card-body {
+        @apply bg-white p-10;
+
+        &__comments {
+          @apply flex justify-between mt-4;
+          p {
+            @apply flex items-center;
+          }
         }
       }
-    };
-  };
-
-  &__cards{
-    @apply relative;
-    img{
-      @apply  h-80 w-full object-cover;
-    };
-    &__card-body{
-      @apply h-80 bg-white p-10 ;
     }
-  };
-  &__card-two{
-    @apply relative;
-    &__mini-card{
-      @apply   bg-cover bg-center bg-no-repeat ;
-      background-image: url('http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/03/post-06.jpg');
-       height: 273px;
-       &__info{
-        @apply text-2xl text-white absolute bottom-0 p-10;
-       }
+
+    &__cards {
+      @apply relative;
+      img {
+        @apply h-80 w-full object-cover;
+      }
+      &__card-body {
+        @apply h-80 bg-white p-10;
+      }
+    }
+    &__card-two {
+      @apply relative;
+      &__mini-card {
+        @apply bg-cover bg-center bg-no-repeat;
+        background-image: url("https://res.cloudinary.com/academist/image/upload/v1649326681/post-06_hs0ht9.jpg");
+        height: 273px;
+        &__info {
+          @apply text-2xl text-white absolute bottom-0 p-10;
+        }
+      }
+    }
+    &__message {
+      @apply flex justify-center items-center bg-cover bg-center bg-no-repeat mt-4 md:mt-0 mb-6;
+      background-image: url("https://res.cloudinary.com/academist/image/upload/v1649326681/post-2_wee2ix.jpg");
+      height: 273px;
+      p {
+        @apply text-center p-10 text-2xl text-white;
+      }
     }
   }
-  &__message{
-    @apply  flex justify-center items-center bg-cover bg-center bg-no-repeat mt-4 md:mt-0 mb-6;
-   background-image: url('http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/03/post-2.jpg');
-    height: 273px;
-    p{
-      @apply  text-center p-10 text-2xl text-white
-    }
-  }
- };
- 
- .box{
-  @apply bg-primary text-center w-16 right-0 absolute -mt-8 mr-6 text-white p-2;
 
- }
+  .box {
+    @apply bg-primary text-center w-16 right-0 absolute -mt-8 mr-6 text-white p-2;
+  }
 }

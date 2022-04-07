@@ -5,7 +5,7 @@ import { AiOutlineCheck } from "react-icons/ai";
 const data = [
   {
     image:
-      "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/image-4.jpg",
+      "https://res.cloudinary.com/academist/image/upload/v1649321559/image-4_xnqvvr.jpg",
     subtitle: "ROOM CLEANING",
     price: "150",
     buttonText: "MORE INFO",
@@ -18,7 +18,7 @@ const data = [
   },
   {
     image:
-      "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/image-3.jpg",
+      "https://res.cloudinary.com/academist/image/upload/v1649321559/image-3_eas2qd.jpg",
     subtitle: "FUL LAUNDRY",
     price: "180",
     buttonText: "REQUEST",
@@ -31,7 +31,7 @@ const data = [
   },
   {
     image:
-      "http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/12/image-2.jpg",
+      "https://res.cloudinary.com/academist/image/upload/v1649321559/image-2_kgbxrk.jpg",
     subtitle: "MEALS INCLUDED",
     price: "165 ",
     buttonText: "SEE MENU",
@@ -178,7 +178,7 @@ const Services = () => {
             <div className="col-span-12 md:col-span-4">
               <div className="pr-16 pb-5 relative col-span-12 md:col-span-6">
                 <img
-                style={{height: "300px", width: "100%"}}
+                  style={{ height: "300px", width: "100%" }}
                   src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/03/post-04.jpg"
                   alt="welcome images"
                 />
