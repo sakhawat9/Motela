@@ -12,6 +12,11 @@ const Header = () => {
           <p className="header__top__left__email"> <HiOutlineMail className="font-bold" /> <span>motala@gmail.com</span></p>
           <p className="header__top__left__time"> <HiOutlineClock /><span> MON - SAT: 08.00 - 22:00</span></p>
         </div>
+        <div>
+          <marquee width="90%" className="text-lg">
+            <span className="footer__submit px-8 py-4">News</span> New year Registrations open, contact us and renew your card! 
+          </marquee>
+        </div>
         <div className="header__top__right">
           <FaShoppingCart/> <span> Cart : 0 Items - $0.00</span>
         </div>
