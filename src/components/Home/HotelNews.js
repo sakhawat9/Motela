@@ -17,7 +17,7 @@ const HotelNews = () => {
           </p>
         </div>
 
-        <div class="hotel-news__wrapper">
+        <div className="hotel-news__wrapper">
           <div className="hotel-news__wrapper__card-one">
             <div className="hotel-news__wrapper__linkup">
               <a href="https://rhsanto.com" target="_blank">

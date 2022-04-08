@@ -9,7 +9,7 @@ const Footer = () => {
 <>
 <div className=' footer '>
 {/* here footer section */}
-<div class="footer__wrapper ">
+<div className="footer__wrapper ">
   <div className='footer__wrapper__area'>
       <h4>About Us</h4>
       <p>Sed sit amet nisl in velit viverra bibendum in ac nisi.
