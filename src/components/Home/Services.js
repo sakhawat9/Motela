@@ -97,6 +97,7 @@ const Services = () => {
               <div className="serves-card__wrapper">
                 {data.map((data) => (
                   <div
+                    key={data.index}
                     className={`serves-card__wrapper__area ${data.className}`}
                   >
                     <div className="">
