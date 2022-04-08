@@ -97,6 +97,7 @@ const Services = () => {
               <div className="serves-card__wrapper">
                 {data.map((data) => (
                   <div
+                    key={data.index}
                     className={`serves-card__wrapper__area ${data.className}`}
                   >
                     <div className="">
@@ -179,7 +180,7 @@ const Services = () => {
               <div className="pr-16 pb-5 relative col-span-12 md:col-span-6">
                 <img
                   style={{ height: "300px", width: "100%" }}
-                  src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/03/post-04.jpg"
+                  src="https://res.cloudinary.com/academist/image/upload/v1649323144/post-04_apuvan.jpg"
                   alt="welcome images"
                 />
                 <div className="absolute bottom-0 p-3 bg-white right-0">
@@ -187,7 +188,7 @@ const Services = () => {
                     className="bg-no-repeat bg-cover"
                     style={{
                       backgroundImage:
-                        'url("http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/uploads/sites/2/2021/11/bg10.jpg")',
+                        'url("https://res.cloudinary.com/academist/image/upload/v1649425658/bg10_yw3vky.jpg")',
                       backgroundPosition: "top center",
                     }}
                   >

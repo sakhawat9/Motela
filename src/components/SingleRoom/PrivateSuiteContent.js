@@ -83,7 +83,7 @@ const PrivateSuiteContent = () => {
             alt=""
             className="mx-auto"
             width="40"
-            src="http://www.nicdarkthemes.com/themes/hotel-inn/wp/demo/inn-suites/wp-content/plugins/nd-booking/templates/icon-calendar-grey.svg"
+            src="https://res.cloudinary.com/academist/image/upload/v1649329628/icon-calendar-grey_pl6pvj.svg"
           />
           <div className="flex gap-2 justify-center mt-3">
             <p className="text-gray-500 text-sm font-light ">WEEK PRICE</p>
@@ -91,7 +91,7 @@ const PrivateSuiteContent = () => {
               alt=""
               className="nd_booking_margin_left_5"
               width="12"
-              src="https://res.cloudinary.com/academist/image/upload/v1649329628/icon-calendar-grey_pl6pvj.svg"
+              src="https://res.cloudinary.com/academist/image/upload/v1649410579/icon-info-grey_sz9qna.svg"
             />
           </div>
         </div>

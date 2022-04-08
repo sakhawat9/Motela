@@ -1,0 +1,36 @@
+.similar-rooms {
+    @apply py-10;
+    &__title {
+        @apply mb-7;
+        font-size: 40px;
+    }
+    &__wrapper {
+        @apply grid grid-cols-12 gap-6;
+        &__item {
+            @apply col-span-12 md:col-span-4 border border-primary-200;
+            &__images {
+                @apply relative;
+                &__title {
+                    @apply absolute flex gap-4 items-center bottom-4 left-4;
+                    p {
+                        @apply text-xs text-white;
+                    }
+                    ul {
+                        @apply flex gap-1;
+                        li {
+                            @apply text-xs text-white;
+                        }
+                    }
+                }
+            }
+            &__content {
+                @apply p-8;
+                a {
+                    h1 {
+                        @apply text-3xl;
+                    }
+                }
+            }
+        }
+    }
+}

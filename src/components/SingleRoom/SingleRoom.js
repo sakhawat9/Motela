@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../../common/Layout";
 import PrivateSuite from "./PrivateSuite";
+import SimilarRooms from "./SimilarRooms";
 import SingleRoomBanner from "./SingleRoomBanner";
 
 const SingleRoom = () => {
@@ -8,6 +9,7 @@ const SingleRoom = () => {
     <Layout>
         <SingleRoomBanner />
         <PrivateSuite />
+        <SimilarRooms />
     </Layout>
   );
 };
